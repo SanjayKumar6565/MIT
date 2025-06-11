@@ -1,0 +1,28 @@
+mit_internship/
+├── app/
+│   ├── __init__.py
+│   ├── controllers/
+│   │   ├── application_controller.py
+│   │   ├── certificate_controller.py
+│   │   └── pdf_controller.py
+│   ├── services/
+│   │   ├── application_service.py
+│   │   ├── certificate_service.py
+│   │   ├── google_sheets_service.py
+│   │   └── pdf_service.py
+│   ├── models/
+│   │   ├── application.py
+│   │   ├── certificate.py
+│   │   └── domain.py
+│   ├── repositories/
+│   │   ├── application_repository.py
+│   │   └── certificate_repository.py
+│   ├── exceptions/
+│   │   ├── application_exceptions.py
+│   │   └── validation_exceptions.py
+│   └── utils/
+│       ├── validation.py
+│       └── logger.py
+├── config.py
+├── requirements.txt
+└── run.py
